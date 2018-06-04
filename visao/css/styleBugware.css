@@ -34,7 +34,7 @@
 }
 
 @media screen and (max-width: 766px) {
-    .topnav a{
+    .topnav a {
         padding: 16px 18px;
     }
     .topnav a:not(.active) {
@@ -64,6 +64,9 @@
         display: block;
         text-align: left;
     }
+    .img-responsive_minicurso{
+        width: 50%;
+    }
 }
 
 .menu {
@@ -75,6 +78,7 @@
 }
 
 .img-responsive,
+.img-responsive_minicurso,
 .logo {
     display: block;
     max-width: 100%;
